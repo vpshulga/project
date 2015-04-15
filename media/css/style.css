@@ -1,0 +1,221 @@
+	#header{
+	
+	height:200px;
+	background: url('../img/fontop.jpg');
+	}
+	
+	#logo{
+	float: left;
+	padding_left:5px;
+	height:200px;
+	width:200px;
+	
+	}
+	
+	#headlinks{
+	float: right;
+	padding:20px;
+	
+	}
+	
+	body{
+	padding:0;
+	margin:0;
+	}
+	
+	.topmenu{
+		display:-moz-box;
+		display:-webkit-flex;
+		display:flex;
+		text-align:center;
+		flex-direction:row;
+		width:100%;
+		margin:0 auto;
+	}
+	
+	.topmenu a{
+	display:block;
+	-moz-box:1;
+	-webkit-flex:1;
+	flex:1;
+	font-size:14px;
+	padding:10px;
+	color:white;
+	background:DodgerBlue;
+	text-decoration:none;
+	border-right: 1px white solid;
+	}
+	
+	.menu a{
+	width:100%;
+	margin-top:2px;
+	}
+	
+	.results a{
+	width:100%;
+	margin-top:2px;
+	}
+	
+		
+	.topmenu a:hover {
+	background: orange;
+	color: black;
+	}
+	
+	@media screen and (max-width: 768px){
+	#logo{
+	display: none;
+	}
+	#header{
+	height:100px;
+	}
+	.topmenu{
+	flex-direction: column;
+	}
+	}
+	
+	body{
+	background: Gainsboro;
+	}
+	
+		
+	
+	#footer{
+	background: DodgerBlue;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align:center;
+	}
+	
+	#footer a{
+	color:white;
+	}
+	
+	.col-md-8 a{
+	align: center;
+	}
+  
+	.log{
+	padding-left: 200px;
+	padding-top: 20px;
+        font-size: 20px;
+        color: blue;
+  }
+  
+	.prem{
+	padding-top: 200px;
+	text-align:center;
+	}
+  
+	.prem a{
+	
+	background: blue;
+	font-size: 30px;
+	color: white;
+	padding-left:15px;
+	padding-right:15px;
+	padding-top:15px;
+	padding-bottom:15px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	text-decoration:none;
+	
+	}
+	.ots {
+	font-size: 20px;
+	text-align: right;
+	padding-right: 40px;
+	padding-top: 50px;
+	padding-bottom: 30px
+	
+	}
+	
+	.ots a{
+	background: blue;
+	font-size: 20px;
+	color: white;
+	padding-left:15px;
+	padding-right:15px;
+	padding-top:15px;
+	padding-bottom:15px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	text-decoration:none;
+	}
+
+
+    .nametop{
+        font-size: 20px;
+        text-align: right;
+        padding-right: 130px;
+        padding-bottom: 20px;
+        color: red;
+    }
+
+
+    .otsivy_table{
+        width: 50%;
+        border: solid #000000;
+
+    }
+    .otsivy_name{
+        color: #0782C1;
+     border: solid #000000;
+        height: 40px;
+
+        background: #ffffff;
+    }
+
+    .otsivy_body{
+        font-size: large;
+         height: 100px;
+         border: solid #000000;
+        vertical-align: top;
+        background: #ffffff;
+
+     }
+    .otsivy_date{
+        color: #0782C1;
+        border: solid #000000;
+        padding-top: 40px;
+        height: 40px;
+        text-align: right;
+
+        background: #ffffff;
+
+    }
+    
+    .chemp{
+    float: left;
+    width: 220px;
+    padding: 10px;
+    border: solid 1px black;
+    margin: 10px;
+    box-shadow: 2px 2px 2px black;
+    border-radius: 6px;
+    background: white;
+    }
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
